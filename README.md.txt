@@ -1,0 +1,1 @@
+This is an Easy Report application, It will not post the report for you! (Maybe in the feature. All rights and credits reserved for Professor_Zed and other people that helped me on the project. A lot of new features are planned, so stay tuned!
