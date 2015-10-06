@@ -2,11 +2,13 @@ repositories {
   mavenCentral()
 }
 
+apply plugin: "java"
+
 sourceSets {
-  java.main.srcDir "src/easyreporter"
-  java.test.srcDir "src/test"
+  main.java.srcDir "src/main/easyreporter"
+  test.java.srcDir "src/test/"
 }
 
 jar {
-  manifest.attribute "Main-Class": "easyreporter.Main"
+  manifest.attributes "Main-Class": "easyreporter.Main"
 }
